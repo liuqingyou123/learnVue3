@@ -1,14 +1,14 @@
 {
-  "name": "@canvasrun/core",
+  "name": "@jijiang/reactive",
   "version": "1.0.0",
-  "description": "@canvasrun/core",
+  "description": "@jijiang/reactive",
   "main": "index.js",
-  "module": "dist/core.esm-bundler.js",
+  "module": "dist/reactive.esm-bundler.js",
   "files": [
     "index.js",
     "dist"
   ],
-  "types": "dist/core.d.ts",
+  "types": "dist/reactive.d.ts",
   "sideEffects": false,
   "keywords": [
     "canvas"

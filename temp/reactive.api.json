@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.6.2",
+    "schemaVersion": 1003,
+    "oldestForwardsCompatibleVersion": 1001
+  },
+  "kind": "Package",
+  "canonicalReference": "@jijiang/reactive!",
+  "docComment": "",
+  "name": "@jijiang/reactive",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@jijiang/reactive!",
+      "name": "",
+      "members": [
+        {
+          "kind": "Class",
+          "canonicalReference": "@jijiang/reactive!Reactive:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export default class Reactive "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Reactive",
+          "members": [],
+          "implementsTokenRanges": []
+        }
+      ]
+    }
+  ]
+}

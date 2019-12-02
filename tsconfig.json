@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": false,
+    "removeComments": false,
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "types": ["node"],
+    "rootDir": ".",
+    "paths": {
+      "@canvasrun/shared": ["packages/shared/src"]
+    }
+  },
+  "include": ["packages/global.d.ts", "packages/index.d.ts", "packages/*/src"]
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.6.2",
+    "schemaVersion": 1003,
+    "oldestForwardsCompatibleVersion": 1001
+  },
+  "kind": "Package",
+  "canonicalReference": "@canvasrun/core!",
+  "docComment": "",
+  "name": "@canvasrun/core",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@canvasrun/core!",
+      "name": "",
+      "members": [
+        {
+          "kind": "Class",
+          "canonicalReference": "@canvasrun/core!Core:class",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export default class Core "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Core",
+          "members": [],
+          "implementsTokenRanges": []
+        }
+      ]
+    }
+  ]
+}
